@@ -1,0 +1,42 @@
+{
+  "name": "telebot",
+  "version": "1.2.6",
+  "description": "bot to check btc & eth price.",
+  "main": "lib/telebot.js",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "request": "^2.87.0",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/ava test/index.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mullwar/telebot.git"
+  },
+  "keywords": [
+    "bot",
+    "api",
+    "wrapper",
+    "telebot",
+    "telegram",
+    "telegram api",
+    "telegram bot",
+    "telegram bot api"
+  ],
+  "author": "Mullwar <mullwar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mullwar/telebot/issues"
+  },
+  "homepage": "https://github.com/mullwar/telebot"
+}
